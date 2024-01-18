@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Homepage",
+    "description": "customized homepage",
+    "version": "1.0",
+    "icons": {
+        "16": "images/chrome_icon-48.png",
+        "32": "images/chrome_icon-48.png",
+        "48": "images/chrome_icon-48.png",
+        "128": "images/chrome_icon-240.png"
+    },
+    "action": {
+        "default_icon": "images/chrome_icon-48.png"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+  }
