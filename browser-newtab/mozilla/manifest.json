@@ -1,20 +1,19 @@
 {
-  "manifest_version": 3,
-  "name": "Homepage",
-  "description" : "customized homepage",
-  "version": "1.0",
+  	"manifest_version": 3,
+  	"name": "Homepage",
+	"description" : "customized homepage",
+  	"version": "1.0",
 
-  "icons": {
-    "16": "icons/mozilla_firefox_icon.svg",
-    "96": "icons/mozilla_firefox_icon.svg"
-  },
+  	"icons": {
+    		"16": "icons/mozilla_firefox_icon.svg",
+    		"96": "icons/mozilla_firefox_icon.svg"
+  	},
   
-  "action" : {
-    "default_icon": "icons/mozilla_firefox_icon.svg"
-  },
+  	"action" : {
+    		"default_icon": "icons/mozilla_firefox_icon.svg"
+  	},
 
-  "chrome_url_overrides" : {
-    "newtab": "index.html"
-  }
+  	"chrome_url_overrides" : {
+    		"newtab": "index.html"
+  	}
 }
-
